@@ -8,6 +8,7 @@ load_dotenv()
 
 # Initialize the OpenAI client with your API key
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+client_groq = Groq(api_key=os.getenv('GROQ_API_KEY'))
 
 app=FastAPI()
 
