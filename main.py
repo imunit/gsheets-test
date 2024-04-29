@@ -1,4 +1,5 @@
 from openai import OpenAI
+from groq import Groq
 import os
 from dotenv import load_dotenv
 from fastapi import FastAPI
@@ -9,6 +10,7 @@ load_dotenv()
 # Initialize the OpenAI client with your API key
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 client_groq = Groq(api_key=os.getenv('GROQ_API_KEY'))
+
 
 app=FastAPI()
 
