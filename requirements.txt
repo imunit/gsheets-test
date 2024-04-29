@@ -1,3 +1,4 @@
+
 annotated-types==0.6.0
 anyio==4.3.0
 argon2-cffi==23.1.0
@@ -76,8 +77,6 @@ Pygments==2.17.2
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 python-json-logger==2.0.7
-pywin32==306
-pywinpty==2.0.13
 PyYAML==6.0.1
 pyzmq==26.0.2
 referencing==0.35.0
